@@ -1,0 +1,57 @@
+.navbar {
+  background-color: black;
+  
+}
+
+a {
+  color: white;
+}
+
+.navbar-nav {
+  display: flex;
+  padding: 10px;
+}
+
+.nav-reg {
+  margin: 0px 10px;
+}
+
+.container-header {
+  display: flex;
+  align-items: center;
+}
+
+.btnAddCard {
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+  margin: 0px 20px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  height: 50px;
+  width: auto;
+  font-size: 22px;
+}
+
+.btnAddCard:hover {
+  background-color: black;
+  color: white;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-around;
+}
+
+.div-card {
+  border: 2px solid black;
+}
+
+.button-card a {
+  color: black;
+  margin: 35px 25px;
+}
+
+.card-title {
+  font-weight: 900;
+}
